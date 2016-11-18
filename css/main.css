@@ -1,0 +1,172 @@
+  /*** GENERAL ***/
+body{
+  background-image: url("../img/prueba00.jpg");
+  background-repeat: no-repeat;
+  padding-bottom: 30%;
+  background-size: 105%;
+  background-position: right;
+  padding: 2%;
+}
+
+h3, h4{
+  font-family: 'Lobster Two', cursive;
+}
+
+h5, h6, p{
+  font-family: 'Droid Sans', sans-serif;
+  text-align: justify;
+}
+
+.frase{
+  font-family: 'Roboto', sans-serif;
+}
+
+#s00{
+  background-color: white;
+  margin: 15% 59%;
+  padding: 2%;
+  border-radius: 100%;
+  transform : rotate(18deg);
+}
+
+#logoL{
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin: 40% 33%;
+}
+
+.hola{
+  font-family: 'Dancing Script', cursive;
+}
+
+#name{
+  color: white;
+  font-weight: bold;
+  font-size: 4em;
+  font-family: 'Dancing Script', cursive;
+  margin: 20% 10%;
+  transform : rotate(-5deg);
+
+}
+
+.cuadro{
+  background-image:url(../img/pages-depth.png);
+  position:absolute;
+  top:8px;
+  width:16px;
+  height:600px;
+}
+.marco {    
+   border: 3px solid #AFE2FF; 
+} 
+
+.marco2 {    
+   border: 5px solid #AFE2FF; 
+}
+
+.marco4 {
+  border-radius: 8px 8px 8px 8px;
+  -moz-border-radius: 8px 8px 8px 8px;
+  -webkit-border-radius: 8px 8px 8px 8px;
+  transform : rotate(-4deg); 
+  border: 5px solid white; 
+} 
+
+#sketch{
+  width: 900px;
+  height: 600px;
+} 
+
+#sketch .turn-page{
+  width: 900px;
+  height: 600px;
+  background-color:#ccc;
+}
+
+#sketch .shadow{
+  box-shadow: 0 4px 20px #666;
+}
+ 
+
+progress {  
+    background-color: #f3f3f3;  
+    border: 0;  
+    height: 8px;
+    width: 70%;  
+    border-radius: 15px;  
+}
+
+.portada{
+  background-image: url("../img/fondoPortada.jpg");
+}
+       
+.contraPortada {
+  background-image: url("../img/fondoPortada.jpg");
+}
+
+.rodondearD{
+  border-radius: 8px 38px 38px 8px;
+  -moz-border-radius: 8px 38px 38px 8px;
+  -webkit-border-radius: 8px 38px 38px 8px;
+  border: 0px solid #000000;
+}
+
+.rodondearI{
+  border-radius: 38px 8px 8px 38px;
+  -moz-border-radius: 38px 8px 8px 38px;
+  -webkit-border-radius: 38px 8px 8px 38px;
+  border: 0px solid #000000;
+}
+
+.redes{
+  margin: 15% 25%;
+}
+.reves{
+  background:top left url("../img/reves2.jpg");
+  background-position: bottom;
+}
+      
+.pagina{
+  background:top left url("../img/pagina.jpg");;
+}
+  
+.waves-effect.waves-brown .waves-ripple {
+  background-color: rgba(121, 85, 72, 0.65);
+}
+
+.pd-5{
+  padding: 5%;
+}
+
+.pd5{
+  padding: 0 5%;
+}
+
+.pd-3{
+  padding: 3%;
+}
+
+.pd-2{
+  padding: 3%;
+}
+
+.pd-15-3{
+  padding: 20% 5%;
+}
+
+.pd-15{
+  padding: 5% 15% 5% 5%;
+}
+
+.pd-2-5{
+  padding: 2% 5%;
+}
+
+.pt3{
+  margin-top: 3%;
+}
+
+.text-b{
+  color: #B28445;
+}
