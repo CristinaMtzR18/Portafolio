@@ -1,10 +1,9 @@
   /*** GENERAL ***/
 body{
-  background-image: url("../img/prueba00.jpg");
+  background-image: url("../img/fondo04.jpg");
   background-repeat: no-repeat;
-  padding-bottom: 30%;
+  background-position: center;
   background-size: 105%;
-  background-position: right;
   padding: 2%;
 }
 
@@ -123,17 +122,30 @@ progress {
   margin: 15% 25%;
 }
 .reves{
-  background:top left url("../img/reves2.jpg");
-  background-position: bottom;
+  background: url("../img/reves2.jpg");
 }
       
 .pagina{
   background:top left url("../img/pagina.jpg");;
 }
-  
-.waves-effect.waves-brown .waves-ripple {
-  background-color: rgba(121, 85, 72, 0.65);
+ 
+
+#dedicatoria{
+  font-family: 'Lobster Two', cursive;
+  text-align: center;
+  font-style: italic;
+  font-size: 2em; 
+  margin-top: 55%;
 }
+
+
+#barrita {
+  margin: 20px;
+  width: 400px;
+  height: 8px;
+}
+
+
 
 .pd-5{
   padding: 5%;
@@ -164,9 +176,9 @@ progress {
 }
 
 .pt3{
-  margin-top: 3%;
+  margin-top: 15%;
 }
 
 .text-b{
-  color: #B28445;
+  color: #eeb200;
 }

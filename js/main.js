@@ -23,9 +23,21 @@ $(document).ready(function(){
     	$('#name').append(texto[i]);
     	if(i<texto.length){
     		i++;
-    		setTimeout(escribirName,1000);
+    		setTimeout(escribirName,1500);
     	}
     };
     escribirName();
-
+    //Barra de progreso
+    var bar = new ProgressBar.Line(barrita, {
+		strokeWidth: 4,
+  		easing: 'easeInOut',
+  		duration: 25000,
+  		color: '#d0a31d',
+  		trailColor: '#eee',
+  		trailWidth: 1,
+  		svgStyle: {width: '100%', height: '100%'
+  		}
+	});
+	bar.animate(.50);
+	bar.setText('Intermedio');
 });
