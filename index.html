@@ -1,188 +1,236 @@
 <!DOCTYPE html> 
 <html lang="es"> 
     <head> 
-        <meta charset="utf-8"> 
-        <title>Portafolio. CRIS</title> 
-        <link rel="stylesheet" href="css/main.css">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Cristina Martinez</title>
+        <link rel="icon" type="img/ico" href="img/ico/quetzul.png">
         <link rel="stylesheet" href="css/materialize.css">
-        <link rel="stylesheet" href="css/font-awesome.css"
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/ihover.css">
+        <link rel="stylesheet" href="css/main.css">
         <!--GoogleFonts-->
         <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Droid+Sans|Lobster+Two" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i" rel="stylesheet">
 
     </head>
     <body>
-        <!-- CUERPO DE LIBRO -->
         <!-- Container -->
-        <div class="container" id="sketch">
-            <!-- Portada -->
-           <div class="portada hard rodondearD">
-                <div class="row">
-                    <div class="col s12 l12 pd-5">
-                        <p id="name" class="center"></p>
-                        <img src="img/sticker00.png" width="150" height="150" alt="sticker00" id="s00">
+        <div class="container">
+            <div class="row">
+                <!-- Libro -->
+                <div class="col s12 m12 l12 pd-5">
+                    <!-- Nota -->
+                    <div class="note">
+                        <h5 class="center"><ins>Front-End Web Developer</ins></h5>
+                        <p>En mi libro podras encontrar:</p>
+                        <p>Sobre Mí</p>
+                        <p>Habilidades</p>
+                        <p>Proyectos</p>
+                        <p>Contacto</p>
                     </div>
+                    <!-- CUERPO DE LIBRO -->
+                    <div id="sketch">
+                        <!-- Portada -->
+                       <div class="portada hard rodondearD">
+                            <div class="row">
+                                <div class="col s12 l12 pd-5">
+                                    <p id="name" class="center"></p>
+                                    <img src="img/sticker00.png" width="150" height="150" alt="sticker00" id="s00">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Portada (reves) -->
+                        <div class="reves hard rodondearI">
+                            <div class="row pd-5">
+                                <div class="col s12 l12 center">
+                                    <!--Mi avatar-->
+                                    <img src="img/Avatar00.png"  alt="miAvatar" class="marco4 mt3">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sección "Sobre mi" -->
+                        <div class="pagina hard rodondearD">
+                            <div class="row pd-15-3">
+                                <div class="col s12 l12 center">
+                                    <h3>Sobre mí</h3>
+                                    <!-- Frase -->
+                                    <blockquote class="right-align frase text-b">"Los sueños son las alas que te ayudaran a volar"</blockquote>
+                                    <p class="right-align text-b">Sora Naegino</p>
+                                    <!-- Descripción -->
+                                    <p>Una soñadora con muchas ganas de aprender y vencer desafíos que se presenten... ¡Esa soy yo!. Poseo conocimientos sobre desarrollo de software y complementandolo con lo aprendido en Laboratoria, desarrollo web Front-End; me considero un buen elemento para tu equipo de trabajo.</p>
+                                    <p>Sobre mis pasatiempos diré que me gusta la lectura, adoro el anime (casi cualquier genero) y amo a las mascotas.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sección "Habilidades" -->
+                        <div class="pagina hard rodondearI">
+                            <div class="row">
+                                <div class="col s12 l12 center">
+                                    <h3>Habilidades</h3>
+                                    <!-- Mis habilidades técnicas -->
+                                    <h6 class="center"><ins>Técnicas. Herramientas de Desarrollo Web</ins></h6>
+                                    <div id="progresoIntermedio" class="m2"></div>
+                                    <div id="herramientasWeb">
+                                        <img src="img/skills/html-5.png" class="imgSkill">
+                                        <img src="img/skills/css-3.png" class="imgSkill">
+                                        <img src="img/skills/Javascript.png" class="imgSkill">
+                                        <img src="img/skills/bootstrap.png" class="imgSkill">
+                                    </div>
+                                    <div id="progresoBasico" class="m2"></div>
+                                    <div id="herramientasWeb">
+                                        <img src="img/skills/jquery.png" class="imgSkill">
+                                        <img src="img/skills/materializecss.png" class="imgSkill">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12 l12 center">
+                                    <!-- Mis habilidades blandas -->
+                                    <h6 class="center"><ins>Sociales. Personalidad y Conducta</ins></h6>
+                                </div>
+                            </div>
+                            <div class="row m-2">
+                                <div class="col s6 l16 center">
+                                    <div id="myContainer">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 100 100">
+                                            <path fill-opacity="0" stroke-width="1" stroke="#bbb" d="M81.495,13.923c-11.368-5.261-26.234-0.311-31.489,11.032C44.74,13.612,29.879,8.657,18.511,13.923  C6.402,19.539,0.613,33.883,10.175,50.804c6.792,12.04,18.826,21.111,39.831,37.379c20.993-16.268,33.033-25.344,39.819-37.379  C99.387,33.883,93.598,19.539,81.495,13.923z"/>
+                                            <path id="heart-path" fill-opacity="0" stroke-width="3" stroke="#ED6A5A" d="M81.495,13.923c-11.368-5.261-26.234-0.311-31.489,11.032C44.74,13.612,29.879,8.657,18.511,13.923  C6.402,19.539,0.613,33.883,10.175,50.804c6.792,12.04,18.826,21.111,39.831,37.379c20.993-16.268,33.033-25.344,39.819-37.379  C99.387,33.883,93.598,19.539,81.495,13.923z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="col s6 l6">    
+                                    <p><i class="fa fa-clock-o" aria-hidden="true"></i> Puntualidad</p>
+                                    <p><i class="fa fa-star" aria-hidden="true"></i> Compromiso</p>
+                                    <p><i class="fa fa-users" aria-hidden="true"></i> Trabajo en equipo</p>
+                                    <p><i class="fa fa-smile-o" aria-hidden="true"></i> Manejo de estrés</p>
+                                    <a href="pdf/CV_CristinaMtz.pdf" download="CrisCV" class="btn waves-effect waves-orange center">Descarga mi CV</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sección "Proyectos" -->
+                        <div class="pagina hard rodondearD">
+                            <div class="row">
+                                <div class="col s12 l12 center">
+                                    <h3>Proyectos</h3>
+                                </div>
+                            </div>
+                            <!-- Primer proyecto -->
+                            <div class="row pd5">
+                                <div class="col s12 l12 center">
+                                    <div class="ih-item square colored effect11 bottom_to_top center">
+                                        <a href="#">
+                                            <div class="img">
+                                                <img src="img/pSpringCame.png" alt="pSpringCame">
+                                            </div>
+                                            <div class="info">
+                                                <h3>Spring Came</h3>
+                                                <p>Primer proyecto realizado con el framework de Bootstrap en el que se aprendio a ocultar elementos para su presentación responsive. También se manejo imagenes y texto responsive.</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <a href="https://cristinamtzr18.github.io/SpringCame/" target="_blank" class="waves-effect waves-orange btn m2">VER</a>
+                                </div>
+                            </div>      
+                        </div>
+                        <!-- Sección "Proyectos"  (continuación) -->
+                        <div class="pagina hard rodondearI">
+                            <div class="row pd-15-3">
+                            <!-- Segundo proyecto -->
+                                <div class="col s12 l12 center">
+                                    <img class="left-pic zoom-this marco2" src="img/pKane_Theme.jpg" width="300" height="250" alt="pKaneTheme">
+                                    <h5 class="center">Kane Theme</h5>
+                                    <p>   
+                                        Proyecto que sirvio para evaluación del maquetación con Bootstrap. Además de utilizar todo lo aprendido sobre el framework, se agregaron tres efectos con CSS a la página. 
+                                    </p>
+                                    <a href="https://cristinamtzr18.github.io/Kane_Theme/" target="_blank" class="btn waves-effect waves-orange">VER</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sección "Proyectos"  (continuación) -->
+                        <div class="pagina hard rodondearD">
+                            <!-- Tercer proyecto -->
+                            <div class="row pd-15-3">
+                                <div class="col s12 l12 center">
+                                    <img class="left-pic zoom-this marco2" src="img/pTrello.png" width="300" height="250" alt="pTrello">
+                                    <h5 class="center">Trello</h5>
+                                    <p>   
+                                        Para este proyecto se hace la maquetación con Bootstrap y para la funcionalidad se hace uso de la API Drag and Drop para poder arrastrar las tarjetas entre las listas.
+                                        Se agrego efectos como cambio de color al momento de arratrar la tarjeta y cambio visual de la lista destino.  
+                                    </p>
+                                    <a href="https://cristinamtzr18.github.io/Trello/" target="_blank" class="btn waves-effect waves-orange">VER</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sección "Proyectos"  (continuación) -->
+                        <div class="pagina hard rodondearI">
+                            <!-- Cuarto proyecto -->
+                            <div class="row pd-15-3">
+                                <div class="col s12 l12 center">
+                                    <img class="left-pic zoom-this marco2" src="img/pBicisLocas.png" width="300" height="250" alt="pBicisLocas">
+                                    <h5 class="center">BicisLocas</h5>
+                                    <p>   
+                                        Por medio de JQuery se hace la validación de los campos del formulario de tal forma que cumplan con ciertos requisitos, por ejemplo, tanto en Nombre como Apellido se pide que inicie con letra mayúscula.  
+                                    </p>
+                                    <a href="https://cristinamtzr18.github.io/Bicis_Locas/" target="_blank" class="btn waves-effect waves-orange">VER</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sección "Contacto" -->
+                        <div class="pagina hard rodondearD">
+                            <div class="row pd-5">
+                                <div class="col s12 l12 center">
+                                    <h3 class="center">Contacto</h3>
+                                    <!-- Forma de contacto -->
+                                    <div class="redes">
+                                        <p><i class="fa fa-envelope fa-2x"></i> cris.mtz.r18@gmail.com</p>
+                                        <p><i class="fa fa-mobile fa-2x"></i> 55 3963 8945</p>
+                                        <p><i class="fa fa-linkedin fa-2x"></i><a href="#">  Linkedin</a></p>
+                                        <p><i class="fa fa-github fa-2x"></i><a href="#">  GitHub</a></p>
+                                    </div> 
+                                </div>
+                            </div>               
+                        </div>
+                        <!-- Sección vacia -->
+                        <div class="pagina hard rodondearI">
+                            <div class="row pd-5">
+                                <div class="col s12 l12">
+                                    <p id="dedicatoria" class="text-b">Para quienes siempre estan conmigo <img src="img/paw.png"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Contraportada (reves) -->
+                        <div class="reves hard rodondearD">
+                            <div class="row pd-5">
+                                <div class="col s12 l12">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Contraportada -->
+                        <div class="contraPortada hard rodondearI">
+                            <div class="row pd-5">
+                                <div class="col s12 l12">
+                                    <img src="img/logoL.png" alt="logoLaboratoria" id="logoL">
+                                    <p class="center text-white">2016 <span>&copy Copyright </span>Laboratoria</p>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                            </div>
+                        </div>
+                <!-- cierra col de libro -->
                 </div>
+            <!-- cierra row -->
             </div>
-            <!-- Portada (reves) -->
-            <div class="reves hard rodondearI">
-                <div class="row pd-5">
-                    <div class="col s12 l12 center">
-                        <!--Mi avatar-->
-                        <img src="img/Avatar00.png"  alt="miAvatar" class="marco4 pt3">
-                    </div>
-                </div>
-            </div>
-            <!-- Sección "Sobre mi" -->
-            <div class="pagina hard rodondearD">
-                <div class="row pd-15-3">
-                    <div class="col s12 l12 center">
-                        <h3>Proyectos</h3>
-                        <!-- Frase -->
-                        <blockquote class="right-align frase text-b">"Los sueños son las alas que te ayudaran a volar"</blockquote>
-                        <p class="right-align text-b">Sora Naegino</p>
-                        <!-- Descripción -->
-                        <p>Una soñadora con muchas ganas de aprender y vencer desafíos que se presenten... ¡Esa soy yo!. Poseo conocimientos sobre desarrollo de software y complementandolo con lo aprendido en Laboratoria, desarrollo web Front-End; me considero un buen elemento para tu equipo de trabajo.</p>
-                        <p>Sobre mis pasatiempos diré que me gusta la lectura, adoro anime (casi cualquier genero) y amo a las mascotas.</p>
-                    </div>
-                </div>
-            </div>
-            <!-- Sección "Habilidades" -->
-            <div class="pagina hard rodondearI">
-                <div class="row">
-                    <div class="col s12 l12 center">
-                        <h4>Habilidades</h4>
-                        <!-- Mis habilidades técnicas -->
-                        <h6 class="center">Técnicas</h6>
-                        <div id="barrita"></div>
-
-                        <p class="center">Herramientas de desarrollo web</p>
-                        <p class="center">Intermedio</p>
-                        <progress value="75" max="100" caption="Intermedio"></progress>
-                        <p class="center">*HTML    *CSS    *JAVASCRIPT *JQUERY</p>
-                        <p class="center">Sistemas Operativos</p>
-                        <p class="center">Básico</p>
-                        <progress value="35" max="100"></progress>
-                        <p class="center">*WINDOWS  *UBUNTU</p>
-                    </div>
-                </div>
-                <div class="row ">
-                    <div class="col s12 l12 center">
-                        <!-- Mis habilidades blandas -->
-                        <h6 class="center">Blandas</h6>
-                        <p class="center">Intermedio - Avanzado</p>
-                        <progress value="85" max="100" caption="Intermedio"></progress>
-                        <p class="center">*Puntualidad    *Manejo de estrés   *Trabajo en equipo *Compromiso</p>
-                        <a href="pdf/CV_CristinaMtz.pdf" download="CrisCV" class="btn waves-effect waves-orange">Descarga mi CV</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Sección "Proyectos" -->
-            <div class="pagina hard rodondearD">
-                <div class="row">
-                    <div class="col s12 l12 center">
-                        <h3>Proyectos</h3>
-                    </div>
-                </div>
-                <!-- Primer proyecto -->
-                <div class="row pd5">
-                    <div class="col s12 l12 center">
-                        <img class="left-pic zoom-this marco2" src="img/pSpringCame.png" width="300" height="250" alt="pSpringCame">
-                        <h5 class="center">Spring Came</h5>
-                        <p>   
-                            Primer proyecto realizado con el framework de Bootstrap en el que se aprendio a ocultar elementos para su presentación responsive. También se manejo imagenes y texto responsive. 
-                        </p>
-                        <a href="https://cristinamtzr18.github.io/SpringCame/" target="_blank" class="waves-effect waves-orange btn">VER</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Sección "Proyectos"  (continuación) -->
-            <div class="pagina hard rodondearI">
-                <div class="row pd-15-3">
-                <!-- Segundo proyecto -->
-                    <div class="col s12 l12 center">
-                        <img class="left-pic zoom-this marco2" src="img/pKane_Theme.jpg" width="300" height="250" alt="pKaneTheme">
-                        <h5 class="center">Kane Theme</h5>
-                        <p>   
-                            Proyecto que sirvio para evaluación del maquetación con Bootstrap. Además de utilizar todo lo aprendido sobre el framework, se agregaron tres efectos con CSS a la página. 
-                        </p>
-                        <a href="https://cristinamtzr18.github.io/Kane_Theme/" target="_blank" class="btn waves-effect waves-orange">VER</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Sección "Proyectos"  (continuación) -->
-            <div class="pagina hard rodondearD">
-                <!-- Tercer proyecto -->
-                <div class="row pd-15-3">
-                    <div class="col s12 l12 center">
-                        <img class="left-pic zoom-this marco2" src="img/pTrello.png" width="300" height="250" alt="pTrello">
-                        <h5 class="center">Trello</h5>
-                        <p>   
-                            Para este proyecto se hace la maquetación con Bootstrap y para la funcionalidad se hace uso de la API Drag and Drop para poder arrastrar las tarjetas entre las listas.
-                            Se agrego efectos como cambio de color al momento de arratrar la tarjeta y cambio visual de la lista destino.  
-                        </p>
-                        <a href="https://cristinamtzr18.github.io/Trello/" target="_blank" class="btn waves-effect waves-orange">VER</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Sección "Proyectos"  (continuación) -->
-            <div class="pagina hard rodondearI">
-                <!-- Cuarto proyecto -->
-                <div class="row pd-15-3">
-                    <div class="col s12 l12 center">
-                        <img class="left-pic zoom-this marco2" src="img/pBicisLocas.png" width="300" height="250" alt="pBicisLocas">
-                        <h5 class="center">BicisLocas</h5>
-                        <p>   
-                            Por medio de JQuery se hace la validación de los campos del formulario de tal forma que cumplan con ciertos requisitos, por ejemplo, tanto en Nombre como Apellido se pide que inicie con letra mayúscula.  
-                        </p>
-                        <a href="https://cristinamtzr18.github.io/Bicis_Locas/" target="_blank" class="btn waves-effect waves-orange">VER</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Sección "Contacto" -->
-            <div class="pagina hard rodondearD">
-                <div class="row pd-5">
-                    <div class="col s12 l12 center">
-                        <h3 class="center">Contacto</h3>
-                        <!-- Forma de contacto -->
-                        <div class="redes">
-                            <p><i class="fa fa-envelope fa-2x"></i> cris.mtz.r18@gmail.com</p>
-                            <p><i class="fa fa-mobile fa-2x"></i> 55 3963 8945</p>
-                            <p><i class="fa fa-linkedin fa-2x"></i><a href="#">  Linkedin</a></p>
-                            <p><i class="fa fa-github fa-2x"></i><a href="#">  GitHub</a></p>
-                        </div> 
-                    </div>
-                </div>               
-            </div>
-            <!-- Sección vacia -->
-            <div class="pagina hard rodondearI">
-                <div class="row pd-5">
-                    <div class="col s12 l12">
-                        <p id="dedicatoria" class="text-b">Para quienes siempre estan conmigo <img src="img/paw.png"></p>
-                    </div>
-                </div>
-            </div>
-            <!-- Contraportada (reves) -->
-            <div class="reves hard rodondearD">
-                <div class="row pd-5">
-                    <div class="col s12 l12">
-                        
-                    </div>
-                </div>
-            </div>
-            <!-- Contraportada -->
-            <div class="contraPortada hard rodondearI">
-                <div class="row pd-5">
-                    <div class="col s12 l12">
-                        <img src="img/logoL.png" alt="logoLaboratoria" id="logoL">
-                    </div>
-                </div> 
-            </div>
-        </div>
-    <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
-    <script type="text/javascript" src="js/turn.js"></script>
-    <script type="text/javascript" src="js/materialize.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/progressbar.js"></script>
+        <!-- cierra container -->
+        </div>  
+        <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
+        <script type="text/javascript" src="js/turn.js"></script>
+        <script type="text/javascript" src="js/materialize.js"></script>
+        <script type="text/javascript" src="js/progressbar.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>
