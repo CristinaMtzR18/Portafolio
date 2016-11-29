@@ -7,6 +7,18 @@
 	#progresoBasico{
 		font-size: 100px;
 	}
+
+	.note{
+	  width: 300px;
+	  height: 300px;
+	  padding: 2%;
+	  background-color: #F8F069;
+	  border: solid 2px #F8F069;
+	  position: absolute;
+	  left: 28%;
+	  bottom: -15px;
+	  transform : rotate(18deg);
+	}
 }
 /* Dispositivos medianos (ordenadores, anchura mayor o igual a 992px) */
 @media (max-width: 992px) {
