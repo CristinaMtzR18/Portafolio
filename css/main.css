@@ -1,6 +1,6 @@
     /*** GENERAL ***/
 body{
-  background-image: url("../img/fondo04.jpg");
+  background-image: url("../img/fondo00.jpg");
   background-repeat: no-repeat;
   background-position: center;
   padding: 2%;
@@ -25,7 +25,6 @@ h5, h6, p{
   left: 28%;
   bottom: 15px;
   transform : rotate(18deg);
-  box-shadow: 0 4px 40px #666;
 }
     /*** LIBRO ***/
 /*Contenedor del Libro*/
@@ -54,7 +53,7 @@ h5, h6, p{
 }
 /*Fondo del reverso de la portada y contraportada*/
 .reves{
-  background: url("../img/reves2.jpg");
+  background-color: #E2D5B3;
 }
 /*Fondo de las páginad del libro (textura)*/
 .pagina{
@@ -94,7 +93,7 @@ h5, h6, p{
   transform : rotate(18deg);
 }
 /*Marco del avatar*/
-.marco4 {
+.marco {
   border-radius: 8px 8px 8px 8px;
   -moz-border-radius: 8px 8px 8px 8px;
   -webkit-border-radius: 8px 8px 8px 8px;
@@ -103,13 +102,19 @@ h5, h6, p{
 } 
 /*Frase*/
 .frase{
-  font-family: 'Roboto', sans-serif;
+  color: #26A69A;
+  font-size: 1.2em;
+  font-weight: bold;
 }
 /*Gráfica de contenedor*/
 #myContainer {
   margin: 5%;
   width: 200px;
   height: 200px;
+}
+/*Imganes de mis proyectos*/
+.imgProject{
+  margin-left: 10%;
 }
 /*Imagen de skils*/
 .imgSkill{
@@ -120,6 +125,13 @@ h5, h6, p{
 /*Parte de Contacto*/
 .redes{
   margin: 15% 25%;
+}
+.redes a{
+  text-decoration: none;
+}
+.logoQuetzul{
+  width: 150px;
+  height: 150px;
 }
 /*Dedicatoria*/
 #dedicatoria{
@@ -148,7 +160,7 @@ h5, h6, p{
   padding: 3%;
 }
 .pd-2{
-  padding: 3%;
+  padding: 2%;
 }
 .pd-15-3{
   padding: 20% 5%;
@@ -166,6 +178,9 @@ h5, h6, p{
 .m2{
   margin: 2%;
 }
+.m5{
+  margin: 15%;
+}
 .m-2{
   margin-top: -45%;
 }
@@ -176,4 +191,10 @@ h5, h6, p{
 .text-white{
   color: white;
 }
-
+.textM{
+  font-size: 1.3rem; 
+}
+/*responsive*/
+.text2m{
+  font-size: 1.5em; 
+}

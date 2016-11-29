@@ -1,0 +1,45 @@
+ /* Dispositivos pequeños (tablets, anchura mayor o igual a 768px) */
+@media screen and (max-width: 768px) {
+	/*Tratando de hacer el texto responsive*/
+	/*Titulo*/
+	.titulo {
+	  font-size: 2em !important;
+	  font-weight: 400;
+	}
+	/*Parrafo*/
+	p {
+	  line-height: 15px !important;
+	  font-size: 1em !important;
+	  /*Linea de la letra normal, sin el se hace muy gruesa*/
+	  font-weight: normal;
+	  padding: 0% 4%;
+	}
+	.parrafo {
+	  line-height: 15px !important;
+	  font-size: 1em !important;
+	  /*Linea de la letra normal, sin el se hace muy gruesa*/
+	  font-weight: normal;
+	  padding: 0% 4%; 
+	}
+}
+/* Dispositivos medianos (ordenadores, anchura mayor o igual a 992px) */
+@media (max-width: 992px) {
+	/*Tratando de hacer el texto responsive*/
+	/*Titulo*/
+	.titulo {
+	  font-size: 3em !important;
+	  font-weight: 400;
+	}
+	/*Parrafo*/
+	p, .parrafo{
+	  line-height: 20px !important;
+	  font-size: 1.5em !important;
+	  /*Linea de la letra normal, sin el se hace muy gruesa*/
+	  font-weight: normal;
+	  padding: 0% 4%;
+	}
+}
+/* Dispositivos grandes (ordenadores, anchura mayor o igual a 1200px) */
+@media (max-width: 1200px) {
+	/*Esta Media Querie es con la que estamos trabajando normalmente*/
+}
