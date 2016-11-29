@@ -31,7 +31,7 @@ $(document).ready(function(){
     strokeWidth: 6,
   	easing: 'easeInOut',
   	duration: 25000,
-  	color: '#d0a31d',
+  	color: '#26A69A',
   	trailColor: '#AFE2FF',
   	trailWidth: 6,
   	svgStyle: {width: '80%', height: '100%'}
@@ -39,14 +39,15 @@ $(document).ready(function(){
   bar.setText('Intermedio');
 	bar.animate(.50);
   bar.text.style.color = '#fffaf0';
-  bar.text.style.fontSize = '1.5rem';
+  bar.text.style.fontSize = '1rem';
   bar.text.style.fontWeight ='bold';
+  bar.text.style.textAling ='left';
   //Barra de progreso
   var bar = new ProgressBar.Line(progresoBasico, {
     strokeWidth: 6,
     easing: 'easeInOut',
     duration: 25000,
-    color: '#d0a31d',
+    color: '#26A69A',
     trailColor: '#AFE2FF',
     trailWidth: 6,
     svgStyle: {width: '80%', height: '100%'},
@@ -54,7 +55,7 @@ $(document).ready(function(){
   bar.setText('Básico');
   bar.animate(.35);
   bar.text.style.color = '#fffaf0';
-  bar.text.style.fontSize = '1.5rem';
+  bar.text.style.fontSize = '1rem';
   bar.text.style.fontWeight ='bold';
 
   //Grfica de corazon

@@ -99,6 +99,11 @@ h5, h6, p{
   -webkit-border-radius: 8px 8px 8px 8px;
   transform : rotate(-4deg); 
   border: 5px solid white; 
+}
+/*marco para proyectos*/
+.marco2 {
+  border-radius: 8px 8px 8px 8px;     
+  border: 8px solid #26A69A;
 } 
 /*Frase*/
 .frase{
@@ -108,9 +113,9 @@ h5, h6, p{
 }
 /*Gráfica de contenedor*/
 #myContainer {
-  margin: 5%;
-  width: 200px;
-  height: 200px;
+  margin: 10% 20%;
+  width: 150px;
+  height: 150px;
 }
 /*Imganes de mis proyectos*/
 .imgProject{
@@ -148,16 +153,29 @@ h5, h6, p{
   border-radius: 100%;
   margin: 40% 33%;
 }
+.myA{
+  text-decoration: none;
+  color: black;
+}
     /*** UTILIDADES ***/
 /*Padding*/
 .pd-5{
   padding: 5%;
 }
-.pd5{
-  padding: 0 5%;
+.pd-6{
+  padding: 6% 5%;
+}
+.pd-5a{
+  padding: 5% 5% 0% 5%;
+}
+.pd-5b{
+  padding: 0% 5% 5% 5%;
 }
 .pd-3{
   padding: 3%;
+}
+.pd0-5{
+  padding: 0% 5%;
 }
 .pd-2{
   padding: 2%;
@@ -179,10 +197,13 @@ h5, h6, p{
   margin: 2%;
 }
 .m5{
-  margin: 15%;
+  margin: 25%;
 }
 .m-2{
   margin-top: -45%;
+}
+.myCenter{
+  margin-left: -50%;
 }
 /*Texto*/
 .text-b{
