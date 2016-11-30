@@ -41,7 +41,7 @@ $(document).ready(function(){
   bar.text.style.color = '#fffaf0';
   bar.text.style.fontSize = '1rem';
   bar.text.style.fontWeight ='bold';
-  bar.text.style.textAling ='left';
+  
   //Barra de progreso
   var bar = new ProgressBar.Line(progresoBasico, {
     strokeWidth: 6,

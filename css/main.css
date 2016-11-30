@@ -22,8 +22,6 @@ h5, h6, p{
   background-color: #F8F069;
   border: solid 2px #F8F069;
   position: absolute;
-  left: 28%;
-  bottom: 15px;
   transform : rotate(18deg);
 }
     /*** LIBRO ***/
@@ -53,7 +51,7 @@ h5, h6, p{
 }
 /*Fondo del reverso de la portada y contraportada*/
 .reves{
-  background-color: #E2D5B3;
+  background-image: url("../img/fondoPortada.jpg");
 }
 /*Fondo de las páginad del libro (textura)*/
 .pagina{
@@ -111,10 +109,15 @@ h5, h6, p{
   font-size: 1.2em;
   font-weight: bold;
 }
+/*Subtitulos*/
+.subtitulo{
+  border-bottom: solid 1px; 
+  border-top: solid 1px;
+}
 /*Gráfica de contenedor*/
 #myContainer {
-  margin: 10% 20%;
-  width: 150px;
+  margin: 4% 20%;
+  width: 150x;
   height: 150px;
 }
 /*Imganes de mis proyectos*/
