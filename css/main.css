@@ -3,7 +3,7 @@ body{
   background-image: url("../img/fondo00.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  padding: 2%;
+  padding-top: 2%;
 }
 
 h3, h4{
@@ -14,6 +14,7 @@ h5, h6, p{
   font-family: 'Droid Sans', sans-serif;
   text-align: justify;
 }
+
     /*** Nota ***/
 .note{
   width: 300px;
@@ -27,14 +28,14 @@ h5, h6, p{
     /*** LIBRO ***/
 /*Contenedor del Libro*/
 #sketch{
-  width: 900px;
-  height: 600px;
+  width: 950px;
+  height: 595px;
   display: inline-block;
 } 
 /*Efecto auxiliar de tirón de hoja*/
 #sketch .turn-page{
-  width: 900px;
-  height: 600px;
+  width: 950px;
+  height: 595px;
   background-color:#ccc;
 }
 /*Sombra del contendedor del Libro*/
@@ -55,7 +56,7 @@ h5, h6, p{
 }
 /*Fondo de las páginad del libro (textura)*/
 .pagina{
-  background:top left url("../img/pagina.jpg");;
+  background:top left url("../img/pagina.jpg");
 }
 /*Redondear la hoja derecha*/
 .rodondearD{
@@ -85,7 +86,7 @@ h5, h6, p{
 /*Sticker de la portada*/
 #s00{
   background-color: white;
-  margin: 15% 59%;
+  margin: 10% 59%;
   padding: 2%;
   border-radius: 100%;
   transform : rotate(18deg);
@@ -222,4 +223,25 @@ h5, h6, p{
 /*responsive*/
 .text2m{
   font-size: 1.5em; 
+}
+/*MEDIAS QUERIES*/
+#aviso-movil-horizontal{ 
+  display: none; 
+}
+@media only screen and (orientation:portrait) {
+        body{
+          color: white;
+          padding: 33% 2%;
+        }
+        #wrapper{
+         display:none; 
+        }
+        #aviso-movil-horizontal{
+          display:block;
+        }
+}
+@media only screen and (orientation:landscape) {
+      #aviso-movil-horizontal{
+        display:none; 
+      }
 }

@@ -2,21 +2,7 @@ var texto = 'Cristina Martinez';
 var i=0;
 $(document).ready(function(){
 	//Efecto flipPage
-  $('#sketch').turn({
-   	when : {
-   		turned : function(event, page, pageObj) {
-   			console.log("Turn: ", page);
-   			if (page >= 3) {
-    				//mostar el cuadro gris
-    				//$(".cuadro").show();
-   			}
-   			if (page < 3) {
-    				//Ocultar el cuadro gris
-    				//$("#cuadro").hide();
-   			}
-   		}
-   	}
-  });
+  $('#sketch').turn();
   //Escribir texto
   function escribirName(){
   	$('#name').append(texto[i]);
@@ -32,7 +18,7 @@ $(document).ready(function(){
   	easing: 'easeInOut',
   	duration: 25000,
   	color: '#26A69A',
-  	trailColor: '#AFE2FF',
+  	trailColor: '#A8A8A8',
   	trailWidth: 6,
   	svgStyle: {width: '80%', height: '100%'}
 	});
@@ -48,7 +34,7 @@ $(document).ready(function(){
     easing: 'easeInOut',
     duration: 25000,
     color: '#26A69A',
-    trailColor: '#AFE2FF',
+    trailColor: '#A8A8A8',
     trailWidth: 6,
     svgStyle: {width: '80%', height: '100%'},
   });
